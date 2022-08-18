@@ -1,5 +1,5 @@
 site_name: Lithonn Team
-site_url: https://squidfunk.github.io/mkdocs-material/
+site_url: https://lithonn.github.io/
 site_author: lithonn team
 site_description: >-
   Create a branded static site from a set of Markdown files to host the
@@ -142,7 +142,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Network Pentest:
-    - Installation: getting-started.md
+    - Windows Privilege Escalation: network-pentest/windows-privilege-escalation.md
     - Creating your site: creating-your-site.md
     - Publishing your site: publishing-your-site.md
     - Customization: customization.md
