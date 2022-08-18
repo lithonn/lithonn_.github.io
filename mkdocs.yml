@@ -5,9 +5,9 @@ site_description: >-
   Create a branded static site from a set of Markdown files to host the
   documentation of your Open Source or commercial project
 # Repository
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
-
+repo_name: lithonn/lithonn.github.io
+repo_url: https://github.com/lithonn/lithonn.github.io
+edit_uri: edit/main/docs/
 # Copyright
 copyright: copyright &copy; 2022 lithonn team
 
