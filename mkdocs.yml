@@ -141,7 +141,7 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
-  - Getting started:
+  - Network Pentest:
     - Installation: getting-started.md
     - Creating your site: creating-your-site.md
     - Publishing your site: publishing-your-site.md
@@ -153,7 +153,7 @@ nav:
     - Changelog:
       - changelog/index.md
       - How to upgrade: upgrade.md
-  - Setup:
+  - Mobile Pentest:
     - Changing the colors: setup/changing-the-colors.md
     - Changing the fonts: setup/changing-the-fonts.md
     - Changing the language: setup/changing-the-language.md
