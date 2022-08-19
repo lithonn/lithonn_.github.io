@@ -144,8 +144,10 @@ nav:
   - Network Pentest:
     - Information Gathering: network-pentest/index.md
     - File Transfers: network-pentest/index.md
+    - Port Redirection and Tunneling: network-pentest/index.md
     - Windows Privilege Escalation: network-pentest/windows-privilege-escalation.md
     - Linux Privilege Escalation: network-pentest/index.md
+    - Active Directory Attacks: network-pentest/index.md
 
   - Mobile Pentest: mobile-pentest/index.md
 
