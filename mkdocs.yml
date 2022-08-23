@@ -142,9 +142,11 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Network Pentest:
+    - network-pentest/index.md
     - Information Gathering: network-pentest/information-gathering.md
     - File Transfers: network-pentest/file-transfers.md
     - Remote Code Execution: network-pentest/remote-code-execution.md
+    - Persistence Techniques: network-pentest/persistence-techniques.md
 
     - Privilege Escalation:
       - Windows Privilege Escalation: network-pentest/windows-privilege-escalation.md
@@ -154,9 +156,12 @@ nav:
       - Port Redirection and Tunneling: network-pentest/port-redirection-tunneling.md
       - Active Directory Attacks: network-pentest/active-directory-attacks.md
 
-  - Mobile Pentest: mobile-pentest/index.md
+  - Application Pentest:
+    - Web Application:
+      - web-app/index.md
 
-  - Web Pentest: web-pentest/index.md
+    - Mobile Application:
+      - mobile-app/index.md
 
   - Exploit Development: exploit-dev/index.md
 
