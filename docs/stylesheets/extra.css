@@ -1,0 +1,125 @@
+[data-md-color-scheme="meme"] {
+  --md-primary-fg-color: #ffc0cb;
+  --md-default-fg-color--light: #000;
+  --md-accent-fg-color: rgb(153 28 143 / 75%);
+  --md-admonition-bg-color: #e7d4e0;
+  --md-default-bg-color: #af8bad5c;
+  --md-typeset-a-color: rgb(153 28 143 / 75%);
+}
+
+[data-md-color-scheme="meme"] .md-ellipsis,
+[data-md-color-scheme="meme"] .md-tabs__link--active,
+[data-md-color-scheme="meme"] .md-nav__link--active,
+[data-md-color-scheme="meme"] .md-nav__link:-webkit-any(:focus, :hover),
+[data-md-color-scheme="meme"] .mdx-author strong,
+[data-md-color-scheme="meme"] .mdx-meme__content h1 {
+  -webkit-animation: rainbow 5s infinite;
+  animation: rainbow 5s infinite;
+  text-shadow: 2px 1px 2px rgb(153 28 143 / 75%);
+}
+
+[data-md-color-scheme="meme"] .md-tabs__link,
+[data-md-color-scheme="meme"] .md-header {
+  color: #000;
+}
+
+[data-md-color-scheme="meme"] .md-typeset blockquote {
+  border-left: 0.2rem solid #af8bad;
+  background: #af8bad5c;
+}
+
+[data-md-color-scheme="meme"] .md-typeset code {
+  background: #af8bad5c;
+}
+
+[data-md-color-scheme="meme"] .md-typeset :is(.info, .todo, .note, .abstract, .summary, .tldr)>:is(.admonition-title, summary) {
+  background-color: rgb(175 139 173);
+}
+
+[data-md-color-scheme="meme"] .md-typeset .md-typeset :is(.admonition, details) {
+  background-color: #e7d4e0;
+}
+
+[data-md-color-scheme="meme"] .md-typeset :is(.admonition, details):is(.info, .todo, .note, .abstract, .summary, .tldr) {
+  border-color: #af8bad;
+}
+
+[data-md-color-scheme="meme"] .md-typeset :is(.info, .todo, .note, .abstract, .summary, .tldr)>:is(.admonition-title, summary):before {
+  background-color: #e7d4e0;
+}
+
+[data-md-color-scheme="meme"] .md-search__input+.md-search__icon {
+    color: rgb(0 0 0 / 87%);
+}
+
+body[data-md-color-scheme="meme"] {
+  background-color: #ffc0cb;
+}
+
+[data-md-color-scheme="meme"] .mdx-meme__content h1 {
+  text-align: center;
+  font-size: 2vw;
+  font-weight: 500;
+  margin-top: 20px !important;
+}
+
+[data-md-color-scheme="meme"] .mdx-meme__image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+@keyframes rainbow {
+  0% {
+    color: orange;
+  }
+
+  10% {
+    color: purple;
+  }
+
+  20% {
+    color: red;
+  }
+
+  30% {
+    color: #5f9ea0;
+  }
+
+  40% {
+    color: #ff0;
+  }
+
+  50% {
+    color: coral;
+  }
+
+  60% {
+    color: green;
+  }
+
+  70% {
+    color: cyan;
+  }
+
+  80% {
+    color: #ff1493;
+  }
+
+  90% {
+    color: #1e90ff;
+  }
+
+  100% {
+    color: orange;
+  }
+}
+
+[data-md-color-scheme="meme"] .light-home {
+  display: none;
+}
+
+[data-md-color-scheme="default"] .meme-home {
+  display: none;
+}

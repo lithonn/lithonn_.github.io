@@ -15,6 +15,7 @@ copyright: copyright &copy; 2022 lithonn team
 theme:
   name: null
   custom_dir: !ENV [THEME_DIR, "material"]
+  
 
   # Static files
   static_templates:
@@ -46,16 +47,17 @@ theme:
     - search.suggest
     - toc.follow
     # - toc.integrate
+
   palette:
     - scheme: default
       primary: teal
       accent: teal
       toggle:
         icon: material/brightness-7
-        name: Switch to dark mode
-    - scheme: slate
-      primary: teal
-      accent: teal
+        name: Switch to meme mode
+    - scheme: meme
+      # primary: meme
+      # accent: meme
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -66,6 +68,9 @@ theme:
   icon:
     logo: logo
 
+extra_css:
+  - stylesheets/extra.css
+  
 # Plugins
 plugins:
   - search
