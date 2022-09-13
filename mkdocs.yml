@@ -168,7 +168,11 @@ nav:
     - Mobile Application:
       - mobile-app/index.md
 
-  - Exploit Development: exploit-dev/index.md
+  - Exploit Development:
+    - Buffer Overflow:
+      - Introduce: exploit-dev/bof-introduce.md
+      - ret2libc & ret2plt: exploit-dev/bof-ret2libc.md
+      - ROP - sys_execve: exploit-dev/bof-rop-sysexecve.md
 
   - Blog:
     - blog/index.md
