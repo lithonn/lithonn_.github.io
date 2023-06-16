@@ -175,5 +175,7 @@ nav:
 
   - Blog:
       - blog/index.md
+      - 2023:
+          - blog/2023/CVE-2023-2684.md
       - 2022:
           - blog/2022/CVE-2022-4229.md
