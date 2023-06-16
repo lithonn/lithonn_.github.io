@@ -144,7 +144,7 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Home: index.md
+  - Home: blog/index.md
   - Network Pentest:
       - network-pentest/index.md
       - Information Gathering: network-pentest/information-gathering.md
@@ -179,3 +179,5 @@ nav:
           - blog/2023/CVE-2023-2684.md
       - 2022:
           - blog/2022/CVE-2022-4229.md
+          - blog/2022/CVE-2022-4228.md
+

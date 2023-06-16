@@ -12,10 +12,10 @@ search:
 </style>
 
 # Blog
-
 ---
 
-## [CVE-2022-4229](2022/CVE-2023-2684/)
+
+## [CVE-2022-2648](2023/CVE-2023-2684/)
 
 **File Renaming on Upload <= 2.5.1 - Authenticated (Admin+) Stored Cross-Site Scripting**
 
@@ -26,6 +26,12 @@ The CVE-2023-2684 vulnerability is a Stored Cross-Site Scripting (XSS) issue tha
 **SourceCodester Book Store Management System 1.0 /bsms_ci/index.php Access Control**
 
 CVE-2022-4229 is a vulnerability classified as critical was found in SourceCodester Book Store Management System 1.0. This vulnerability affects an unknown part of the file /bsms_ci/index.php. The manipulation with an unknown input leads to a access control vulnerability. The software does not restrict or incorrectly restricts access to a resource from an unauthorized actor. As an impact it is known to affect confidentiality, integrity, and availability.
+
+## [CVE-2022-4228](2022/CVE-2022-4228/)
+
+**SourceCodester Book Store Management System information disclosure**
+
+A vulnerability classified as problematic has been found in SourceCodester Book Store Management System 1.0. This affects an unknown part of the file /bsms_ci/index.php/user/edit_user/. An Unauthenticated Password Hash Disclosure vulnerability has been identified, which can be exploited to retrieve the password hashes of all existing user accounts. The manipulation of the argument password leads to information disclosure. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
 
 [:octicons-arrow-right-24: Continue reading][Search: better, faster, smaller]
 
