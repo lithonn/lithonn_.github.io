@@ -15,7 +15,6 @@ copyright: copyright &copy; 2022 lithonn team
 theme:
   name: null
   custom_dir: !ENV [THEME_DIR, "material"]
-  
 
   # Static files
   static_templates:
@@ -70,7 +69,7 @@ theme:
 
 extra_css:
   - stylesheets/extra.css
-  
+
 # Plugins
 plugins:
   - search
@@ -147,38 +146,34 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Network Pentest:
-    - network-pentest/index.md
-    - Information Gathering: network-pentest/information-gathering.md
-    - File Transfers: network-pentest/file-transfers.md
-    - Remote Code Execution: network-pentest/remote-code-execution.md
-    - Persistence Techniques: network-pentest/persistence-techniques.md
+      - network-pentest/index.md
+      - Information Gathering: network-pentest/information-gathering.md
+      - File Transfers: network-pentest/file-transfers.md
+      - Remote Code Execution: network-pentest/remote-code-execution.md
+      - Persistence Techniques: network-pentest/persistence-techniques.md
 
-    - Privilege Escalation:
-      - Windows Privilege Escalation: network-pentest/windows-privilege-escalation.md
-      - Linux Privilege Escalation: network-pentest/linux-privilege-escalation.md
-    
-    - Post Exploitation:
-      - Port Redirection and Tunneling: network-pentest/port-redirection-tunneling.md
-      - Active Directory Attacks: network-pentest/active-directory-attacks.md
+      - Privilege Escalation:
+          - Windows Privilege Escalation: network-pentest/windows-privilege-escalation.md
+          - Linux Privilege Escalation: network-pentest/linux-privilege-escalation.md
+
+      - Post Exploitation:
+          - Port Redirection and Tunneling: network-pentest/port-redirection-tunneling.md
+          - Active Directory Attacks: network-pentest/active-directory-attacks.md
 
   - Application Pentest:
-    - Web Application:
-      - web-app/index.md
+      - Web Application:
+          - web-app/index.md
 
-    - Mobile Application:
-      - mobile-app/index.md
+      - Mobile Application:
+          - mobile-app/index.md
 
   - Exploit Development:
-    - Buffer Overflow:
-      - Introduce: exploit-dev/bof-introduce.md
-      - ret2libc & ret2plt: exploit-dev/bof-ret2libc.md
-      - ROP - sys_execve: exploit-dev/bof-rop-sysexecve.md
+      - Buffer Overflow:
+          - Introduce: exploit-dev/bof-introduce.md
+          - ret2libc & ret2plt: exploit-dev/bof-ret2libc.md
+          - ROP - sys_execve: exploit-dev/bof-rop-sysexecve.md
 
   - Blog:
-    - blog/index.md
-    - 2022:
-      - blog/2022/chinese-search-support.md
-    - 2021:
-      - blog/2021/the-past-present-and-future.md
-      - blog/2021/excluding-content-from-search.md
-      - blog/2021/search-better-faster-smaller.md
+      - blog/index.md
+      - 2022:
+          - blog/2022/CVE-2022-4229.md
