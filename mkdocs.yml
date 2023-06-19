@@ -144,7 +144,14 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Home: blog/index.md
+  - Home Blog:
+      - index.md
+      - 2023:
+          - blog/2023/CVE-2023-2684.md
+      - 2022:
+          - blog/2022/CVE-2022-4278.md
+          - blog/2022/CVE-2022-4229.md
+          - blog/2022/CVE-2022-4228.md
   - Network Pentest:
       - network-pentest/index.md
       - Information Gathering: network-pentest/information-gathering.md
@@ -172,12 +179,4 @@ nav:
           - Introduce: exploit-dev/bof-introduce.md
           - ret2libc & ret2plt: exploit-dev/bof-ret2libc.md
           - ROP - sys_execve: exploit-dev/bof-rop-sysexecve.md
-
-  - Blog:
-      - blog/index.md
-      - 2023:
-          - blog/2023/CVE-2023-2684.md
-      - 2022:
-          - blog/2022/CVE-2022-4229.md
-          - blog/2022/CVE-2022-4228.md
 
