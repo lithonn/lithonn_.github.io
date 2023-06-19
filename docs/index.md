@@ -14,9 +14,16 @@ hide:
   }
 </style>
 
-# Blog
+# New Discovery
 ---
 
+## [CVE-2023-2811](blog/2023/CVE-2023-26811/)
+
+**AI ChatBot <= 4.5.5 - Authenticated (Administrator+) Stored Cross-Site Scripting**
+
+The AI ChatBot plugin for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings in versions up to, and including, 4.5.5 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.
+
+---
 
 ## [CVE-2023-2648](blog/2023/CVE-2023-2684/)
 
@@ -41,8 +48,3 @@ CVE-2022-4229 is a vulnerability classified as critical was found in SourceCodes
 **SourceCodester Book Store Management System information disclosure**
 
 A vulnerability classified as problematic has been found in SourceCodester Book Store Management System 1.0. This affects an unknown part of the file /bsms_ci/index.php/user/edit_user/. An Unauthenticated Password Hash Disclosure vulnerability has been identified, which can be exploited to retrieve the password hashes of all existing user accounts. The manipulation of the argument password leads to information disclosure. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.
-
-[:octicons-arrow-right-24: Continue reading][Search: better, faster, smaller]
-
-[Search: better, faster, smaller]: 2021/search-better-faster-smaller.md
-[insiders-3.0.0]: ../insiders/changelog.md#3.0.0
