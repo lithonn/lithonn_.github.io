@@ -17,7 +17,7 @@ hide:
 # New Discovery
 ---
 
-## [CVE-2023-2811](blog/2023/CVE-2023-26811/)
+## [CVE-2023-2811](blog/2023/CVE-2023-2811/)
 
 **AI ChatBot <= 4.5.5 - Authenticated (Administrator+) Stored Cross-Site Scripting**
 
